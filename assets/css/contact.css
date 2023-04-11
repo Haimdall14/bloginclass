@@ -1,0 +1,33 @@
+.contact-summary__header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .contact-form__content {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2em;
+    padding: 0px;    
+  }
+  
+  .contact-form__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width;
+  }
+  
+  .contact-checkbox__content {
+    gap: 2em;
+    padding: 0px 16px;
+    margin-top: 32px;
+  }
+  
+  .contact-checkbox {
+    margin-top: 32px;
+  }
+  
+  .contact-button {
+    margin-top: 32px;
+  }

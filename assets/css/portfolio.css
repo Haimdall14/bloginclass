@@ -1,0 +1,96 @@
+
+  .portfolio-summary__header {
+    text-align: center;
+  }
+  
+  .portfolio-summary-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2em;
+    text-align: left;
+    margin: 1em 0;
+  }
+  
+  .portfolio-summary-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625em;
+    padding: 1em 1.5em;
+    border-radius: 10px 0px 0px 0px;
+    background-color: var(--white);
+  }
+  
+  .portfolio-icons-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 1em;
+  }
+  
+  .portfolio-icon {
+    background-color: var(--background);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+  
+    .portfolio-icon-skills-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .portfolio-icon-link {
+    width: 24px;
+    height: 24px;
+    color: var(--primary);
+  }
+  
+  .portfolio-icon-link a {
+    text-decoration: none;
+    color: var(--primary);
+  }
+  
+  .portfolio-icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .ri-arrow-right-up-line {
+    font-size: 36px;
+  }
+  
+  .badges {
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0.75em 1em;
+    color: var(--pink-100);
+    display: flex;
+    gap: 0.35em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portfolio-specs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 0.5em;
+    align-items: center;
+    margin: 0px;
+  }
+  
+  .badges-sm {
+    font-size: 0.8em;
+    padding: 0.5em 0.75em;    
+  }

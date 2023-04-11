@@ -1,0 +1,134 @@
+
+.w-full {
+  width: 100%;
+}
+
+.light {
+  font-weight: 300;
+}
+ 
+.regular {
+  font-weight: 400;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.overline {
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+.mono {
+  font-family: "Source Code Pro", monospace;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.color-primary {
+  color: var(--primary);
+}
+
+.color-primary-dark {
+  color: var(--primary-dark);
+}
+
+.bg-color-secondary-light {
+  background-color: var(--secondary-light);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pad12 {
+  padding-top: 12px;
+}
+
+.pad-top16 {
+  padding-top: 1rem;
+}
+
+.pad-top48 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pt48 {
+  padding-top: 48px;
+}
+
+.pad-butom32 {
+  padding-bottom: 2rem;
+}
+
+.width640 {
+  max-width: 640px;
+}
+
+.heightauto {
+  height: auto;
+}
+
+.height21 {
+  line-height: 21px;
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+
+.mb16 {
+  margin-bottom: 1rem;
+}
+
+.pt8 {
+  padding-top: 8px;
+}
+
+.pt64 {
+  padding-top: 64px;
+}
+
+.pb64 {
+  padding-bottom: 64px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+
+.badges-portfolio-color {
+  background-color: var(--pink-100);
+  color: var(--gray-900);
+}
+
+.ptyb {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
