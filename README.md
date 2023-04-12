@@ -1,29 +1,7 @@
-# Foobar
+# Dennis Lujan blog
 
-Foobar is a Python library for dealing with word pluralization.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1081c89d-cb45-4d07-8a2b-a312dbd4dc9d/deploy-status)](https://app.netlify.com/sites/dmlh/deploys)
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
 
 ## Contributing
 
